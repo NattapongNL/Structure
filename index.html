@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structure</title>
+</head>
+
+<style>
+body {
+    margin: auto;
+    height: 100%;
+   
+}
+    
+   .box1{
+    background-color: skyblue;
+    display: inline-block;
+    width: 200px;
+    height: 900px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid;
+    position: relative;
+    float: left;
+   }
+ 
+    .contianner{
+        background-color: paleturquoise;
+        display: inline-block;
+        width: 100%;
+            border: 1px solid;
+            margin: auto;
+            position: relative;
+
+
+    }
+    .box2 {
+    position: relative;
+    border-radius: 25px;
+    width: 25px;
+    height: 25px;
+    float: left;
+    border: 1px solid black;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #ffffff81;
+}
+.radio {
+    color: rgba(0, 4, 254, 0.541);
+    margin-right:100px;
+    font-size: 12px;
+}
+.bar {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px 1px rgba(110, 110, 110, 0.329);
+    height: 70px;
+    
+}
+.search {
+    float: left;
+    width: 350px;
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+    margin-top: 15px;
+    margin-left: 30px;
+    padding-left: 15px;
+    color: rgba(0, 0, 0, 0.493);
+    background-color: rgba(211, 211, 211, 0.212);
+}
+.circle{
+    
+    float: right;
+    border-radius: 35px;
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+.circle2 {
+    float: right;
+    border-radius: 35px;
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+    margin-right: 25px;
+    border: 1px solid black;
+}
+.circle3 {
+    float: right;
+    border-radius: 35px;
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+.text {
+    float: right;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+.mark {
+    float: right;
+    margin-top: 9px;
+    margin-right: 25px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+}
+.content {
+    position: relative;
+    left:45px;
+   
+    
+    
+}
+.report {
+    position: relative;
+    width: 140px;
+    height: 30px;
+    float: right;
+    background-color: #4e73df;
+    top: 10px;
+    margin-right: 70px;
+    border-radius: 5px;
+    
+
+}
+.windows1 {
+
+    margin: auto;
+    float: left;
+    width: 380px;
+    height: 100px;
+    margin-left: 25px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px rgba(110, 110, 110, 0.329);
+    border-left: 4px solid rgba(13, 13, 255, 0.664);
+}
+.windows2 {
+    float: left;
+    width: 380px;
+    height: 100px;
+    margin-left: 25px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px rgba(110, 110, 110, 0.329);
+    border-left: 4px solid #1cc88a;
+}
+.windows3 {
+    float: left;
+    width: 380px;
+    height: 100px;
+    margin-left: 25px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px rgba(110, 110, 110, 0.329);
+    border-left: 4px solid #36b9cc;
+}
+.windows4 {
+    float: left;
+    width: 380px;
+    height: 100px;
+    margin-left: 25px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px rgba(110, 110, 110, 0.329);
+    border-left: 4px solid #f6c23e;
+}
+.paragraph {
+    position: relative;
+    float: left;
+    width: 1050px;
+    height: 500px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px rgba(110, 110, 110, 0.329);
+}
+.paragraph h4, .graph1 h4 {
+    position: relative;
+    height: 35px;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 5px 5px 0 0;
+    padding-left: 15px;
+    padding-top: 15px;
+    background-color: rgba(236, 236, 248, 0.623);
+    border: 1px solid rgba(0, 0, 0, 0.041);
+    color: #4e73df;
+}
+.textbox {
+    position: relative;
+    left: 15px;
+    line-height: 4rem;
+}
+.paragraph1 {
+    float: left;
+    width: 535px;
+    height: 500px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px rgba(110, 110, 110, 0.329);
+}
+.line {
+    position: relative;
+    background-color: #36b9cc;
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    top: 50px;
+    left: 100px;
+}
+.line1 {
+    position: relative;
+    background-color: #ffffff;
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    top: 25px;
+    left: 25px;
+}
+   
+    
+</style>
+<body>
+<div class=" contianner">
+    <div class="box1">
+        <h2>List Menu</h2>
+        <hr>
+        <div class="box2"></div>
+        <p>Dash Board</p>
+        <hr>
+        <p class="radio">INTER FACE</p>
+    
+        <div class="box2"></div>
+        <p>Components</p>
+         
+        <div class="box2"></div>
+        <p>Utilities</p>
+        <br>
+        <hr>
+        <p class="radio">ADDONS</p>
+        <br>
+        <div class="box2"></div>
+            <p>Pages</p>
+    <br>
+        <div class="box2"></div>
+            <p>Charts</p>
+         <br>
+         <div class="box2"></div>
+            <p>Table</p>
+            <br>
+            <hr>
+    </div> 
+
+
+
+<div class ="bar">
+    <div class="search">
+        <p>Search for...</p> 
+  
+    </div>
+    <div class="circle"></div>
+    <div class="text">
+        <p>Nattapong</p>
+    </div>
+    <div class="mark">
+    </div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+    
+</div>
+
+
+<div class="content">
+    <div class="report">
+        <p> Generate Report</p>
+
+    </div>
+    <h1>Dash Board</h1>
+</div>
+<div class="windows1">
+<p>Earnings (Monthly)</p>
+<h3>$30000</h3>
+</div>
+<div class="windows2">
+<p>Earnings (Annual)</p>
+<h3>21500</h3>
+</div>
+<div class="windows3">
+<p>Tasks</p>
+<h3>50</h3>
+</div>
+<div class="windows4">
+<p>Pending Requests</p>
+<h3>20</h3>
+</div>
+<div class ="paragraph">
+<h4>Earnings Overview</h4>
+<div class="textbox">
+    <p>$50000</p>
+<p>$40000</p>
+<p>$30000</p>
+<p>$20000</p>
+<p>$0</p>
+</div>
+
+
+</div>
+<div class ="paragraph1">
+    <h4>Revenue Sources</h4>
+    <div class="line">
+        <div class="line1"></div>
+    </div>
+    
+</div>
+
+
+   
+
+   
+    
+
+      
+</div>
+</body>
+</html>
